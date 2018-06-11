@@ -5,13 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    .bar {
+      position: relative;
+      background-color: grey;
+      height: 20px;
+      width: 100px;
+      border-radius: 4px;
+    }
+    .progress {
+      border-radius: 4px;
+      background-color: green;
+      height: 20px;
+      position: absolute;
+    }
+  </style>
 </head>
 <body>
-  <ul>
-  <li>A</li>
-  <li>B</li>
-  <li>C</li>
-</ul>
+  <button class="button">Load</button>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="script.js" charset="utf-8"></script>
 </body>
